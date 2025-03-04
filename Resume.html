@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>Resume - AlexGarcia</title>
+        <style>
+            body {
+                margin-top: 50px;
+                margin-bottom: 30px;
+                margin-right: 300px;
+                margin-left: 300px;
+            }
+            .dropbtn {
+            background-color: #4569e9;
+            color: white;
+            padding: 16px;
+            font-size: 16px;
+            border: none;
+            }
+
+            .dropdown {
+            position: relative;
+            display: inline-block;
+            }
+
+            .dropdown-content {
+            margin-left: 120px;
+            display: none;
+            position: absolute;
+            background-color: #f1f1f1;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+            }
+
+            .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+            }
+
+            .dropdown-content a:hover {background-color: #ddd;}
+
+            .dropdown:hover .dropdown-content {display: block;}
+
+            .dropdown:hover .dropbtn {background-color: #3e8e41;}
+        </style>
+
+        <script>
+            function checkPassword() {
+                var password = document.getElementById("password").value;
+                if (password === "frankbutt") {
+                    window.open("transcript.html", "_blank");
+                } else {
+                    alert("Incorrect password. Try again.");
+                }
+            }
+        </script>
+
+    </head>
+
+    <body style="background-color:rgb(240, 219, 158);">
+        
+        <center>
+            <br>
+            <img src = "AlexGarciaPicofSelf.jpg" alt = "Alex Garcia" style="width:300px;height:400px;">
+            <h1>My name is Alexander Garcia!</h1>
+        </center>
+
+            <h2>At a Glance...</h2>
+
+            <p style="font-size:110%; text-indent: 30px;" >I am an ambitious computer engineering major with a passion for hardware, striving for a future in the tech 
+                industry. Outside of academics, my time is spent staying active through working out, immersing myself in immersive fantasy 
+                novels, and playing Dungeons & Dragons. A driven and well-rounded individual eager to blend technical expertise 
+                with personal passions.</p>
+            <center><video width="400" controls>
+                <source src="Introduction - AlexGarcia.mp4" type="video/mp4">
+                Your browser does not support HTML video.
+            </video></center>
+            <h4><center>I am seeking an unpaid internship for Summer 2025 in software or hardware development to gain experience 
+                integrating my computational skills and finding innovative solutions to real-world problems.</center></h4>
+            
+            <h2>Education<h2>
+                <h3 style="margin-left: 30px;">San Jose State University | <small>August 2022 - Present</small></h3>
+                <p style="margin-left: 60px;"><b>B.S. of Computer Engineering </b>| Expected Graduation: Fall 2026</p>
+                <p style="margin-left: 60px;"><b>Relevant Coursework: </b>Data Structures/Algorithms, Electrical Engineering, Circuit 
+                    Analysis, Object Orientation Methodology, Mathematical Logic/Proof, Electromagnetics</p>
+                <h3 style="margin-left: 60px;">Enter Password to View Transcript</h3>
+                <input style="margin-left: 60px;" type="password" id="password" placeholder="Enter password">
+                <button style="margin-left: 20px;" onclick="checkPassword()">Submit</button>
+            
+            <h2>Skills</h2>
+
+                <p style="margin-left: 30px;"><b>Programming Languages: </b>C++, C, Assembly</p>
+
+                <p style="margin-left: 30px;"><strong>Technical Skills: </strong>Circuitry, Soldering, Computer Hardware Handling, 
+                    Circuit Design, HTML, Google & Microsoft Workspaces, Visual Studio, VS-Code, Eclipse-Workspace, Solidworks</h3>
+                
+                <p style="margin-left: 30px;"><b>General: </b>Organization, Collaboration, Independence, Reliability, Consistency, Maintaining focus under pressure,
+                    Optimism, Research-Driven</p>
+
+            <h2>Activites</h2>
+
+                <p style="margin-left: 30px;"><b>Spartan Racing: </b>Worked with the Software/Electronics subteam to integrate circuit 
+                    component management into the construction of an F1 racing vehicle. Researched the functionality of sensors used 
+                    in the car (i.e. Load Cells, Strain Gauges, Hall Eect, Temp, Brake Pressure), and created a guide for new members 
+                    to understand how the car works. Researched the sensors professional F1 teams use, and implemented them onto the 
+                    team's vehicle.
+                    </p>
+
+                <p style="margin-left: 30px;"><strong>Society of Latino Engineers and Scientists: </strong>A strong underrepresented 
+                    community of Latino Computer Engineers that supports building connections, sharing opportunities, and promoting 
+                    equality.</h3>
+                
+                <p style="margin-left: 30px;"><b>Society of Computer Engineers: </b>A group of Computer Programmers/Engineers that 
+                    hosts events to build a strong community and grow students' careers.
+                    </p>
+
+            <h2>Projects</h2>
+                <p style="margin-left: 60px;"><b>Please select from the Dropdown Menu below to take a closer look at my projects</b></p>
+            <div class="dropdown">
+                <button style="margin-left: 120px;" class="dropbtn">Dropdown</button>
+                <div class="dropdown-content">
+                  <a href="prj1.html" target="_blank">PES - Autonomous LiDAR Robot</a>
+                  <a href="prj2.html" target="_blank">E10 - Robot Project</a>
+                </div>
+            </div>
+            
+            <h2>Work Experience</h2>
+                <h3 style="margin-left: 30px;">Santa Clara Valley Medical Center | <small>Medical Laboratory Assistant</small></h3>
+                <p style="margin-left: 60px;">September 2022 - Present</p>
+                <ul style="margin-left: 60px;">
+                    <li>Handling, tracking, and pipetting of specimens for testing.</li>
+                    <li>Maintaining laboratory organization, cleanliness, and sanitation.</li>
+                    <li>Trained in proper PPE/Safety Equipment, and emergency preparedness and response.</li>
+                </ul>
+
+                <h3 style="margin-left: 30px;">El Greco Grill, Campbell CA | <small>Food Service</small></h3>
+                <p style="margin-left: 60px;">August 2021 - June 2022</p>
+                <ul style="margin-left: 60px;">
+                    <li>Prepared and served food for customers at a busy, popular all-day family Greek restaurant.</li>
+                    <li>Managed inbound service calls from customers, food critics, inspectors, and more.</li>
+                </ul>
+
+            <br>
+
+            <center>
+            <h4>Contact Info:</h4>
+                <p>(408)-679-8995 | alexfg0005@gmail.com | <a href="https://github.com/alexfg0005" target="_blank">GitHub</a> | <a href="https://www.linkedin.com/in/alexander-f-garcia/" target="_blank">LinkedIn</a></p>
+            </center>
+                
+    </body>
+
+</html>
